@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     {
         if (anomalyManager == null)
         {
+            Debug.Log("Null");
             return;
         }
 
@@ -32,8 +33,9 @@ public class GameManager : MonoBehaviour
     
     void Update() // FOR TESTING PURPOSES - DELETE LATER
     {
-        if (Keyboard.current.rKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.R))
         {
+            Debug.Log("RESET");
             ResetScene();
         }
     }
