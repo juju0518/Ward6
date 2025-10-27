@@ -80,4 +80,9 @@ public class AnomalyManager : MonoBehaviour
         Debug.Log("refilled anomalies");
     }
 
+    public Anomaly GetCurrentAnomaly()
+    {
+        return currentAnomaly;
+    }
+
 }
