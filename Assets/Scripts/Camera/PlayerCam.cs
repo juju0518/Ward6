@@ -9,10 +9,16 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private float xRotation;
     private float yRotation;
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Screen.lockCursor = true;
+    }
     
     void Update()
     {
-        Debug.Log("Running PlayerCam");
         float mouseX = Input.GetAxis("Mouse X") * senX * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * senY * Time.deltaTime;
 

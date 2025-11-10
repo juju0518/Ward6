@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private float moveSpeed = 6f;
+    [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private Transform orientation;
-    [SerializeField] private float drag = 2f;
+    [SerializeField] private float drag = 6f;
     
     private float horizontalInput;
     private float verticalInput;

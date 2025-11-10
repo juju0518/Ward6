@@ -6,7 +6,6 @@ public class MoveCam : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Running MoveCam");
         transform.position = cameraPosition.position;
         
     }
