@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 public class AnomalyManager : MonoBehaviour
-{// delete debug logs post testing !!!
-    [SerializeField] private float anomalyChance = 0.9f; // 60% chance of an anomaly
+{
+    [SerializeField] private float anomalyChance = 0.6f; // 60% chance of an anomaly
     [SerializeField] private float obviousnessChance = 0.2f; // 20% obvious 80% not 
     private static List<Anomaly> allAnomalies; 
     private List<Anomaly> availableAnomalies;
@@ -13,7 +13,6 @@ public class AnomalyManager : MonoBehaviour
     void Awake()
     {
         allAnomalies = FindObjectsOfType<Anomaly>().ToList();
-        Debug.Log($"found {allAnomalies.Count} anomalies in scene");
         RefillAvailableAnomalies();
     }
 
@@ -30,19 +29,16 @@ public class AnomalyManager : MonoBehaviour
     {
         if (allAnomalies == null || allAnomalies.Count == 0)
         {
-            Debug.LogWarning("No anomalies available!");
             return false;
         }
 
         if (!forceSpawn && Random.value > anomalyChance)
         {
-            Debug.Log("no anomaly this scene");
             return false;
         }
 
         if (availableAnomalies.Count == 0)
         {
-            Debug.Log("refilling anomalies");
             RefillAvailableAnomalies();
         }
 
@@ -55,7 +51,6 @@ public class AnomalyManager : MonoBehaviour
         if (potentialAnomalies.Count == 0)
         {
             potentialAnomalies = availableAnomalies.Where(a => a != null).ToList();
-            Debug.Log($"no {targetObviousness} anomalies available, using remaining");
         }
 
         if (potentialAnomalies.Count > 0)
@@ -66,23 +61,19 @@ public class AnomalyManager : MonoBehaviour
             availableAnomalies.Remove(currentAnomaly);
             currentAnomaly.SetActiveAnomaly(true);
             
-            Debug.Log($"spawned anomaly: {currentAnomaly.name} ({currentAnomaly.obviousness}) - {availableAnomalies.Count} left");
             return true;
         }
 
-        Debug.Log("UHOHJOno valid anomalies to spawn.");
         return false;
     }
 
     private void RefillAvailableAnomalies()
     {
         availableAnomalies = new List<Anomaly>(allAnomalies);
-        Debug.Log("refilled anomalies");
     }
 
     public Anomaly GetCurrentAnomaly()
     {
         return currentAnomaly;
     }
-
 }

@@ -14,7 +14,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        Screen.lockCursor = true;
+        //Cursor.lockState = true;
     }
     
     void Update()

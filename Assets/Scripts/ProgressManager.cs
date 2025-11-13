@@ -45,23 +45,18 @@ public class ProgressManager : MonoBehaviour
     public void CorrectGuess()
     {
         currentProgress++;
-        Debug.Log($"correct! progress: {currentProgress}");
-        
         OnProgressChanged?.Invoke(currentProgress);
         UpdateClock();
         
         if (currentProgress >= maxProgress)
         {
-            Debug.Log("max progress reached");
             OnMaxProgressReached?.Invoke();
         }
     }
 
     public void IncorrectGuess()
     {
-        Debug.Log($"incorrect! progress reset from {currentProgress} to 0");
         currentProgress = 0;
-        
         OnProgressReset?.Invoke();
         OnProgressChanged?.Invoke(currentProgress);
         UpdateClock();
@@ -76,7 +71,6 @@ public class ProgressManager : MonoBehaviour
     {
         if (hourHand == null)
         {
-            Debug.LogWarning("hour hand not found");
             return;
         }
 
@@ -84,12 +78,6 @@ public class ProgressManager : MonoBehaviour
         {
             Vector3 targetRotation = hourRotations[currentProgress];
             hourHand.localRotation = Quaternion.Euler(targetRotation);
-            
-            Debug.Log($"clock updated to: {GetTimeString()} (rotation: {targetRotation})");
-        }
-        else
-        {
-            Debug.LogWarning($"progress {currentProgress} is out of range");
         }
     }
 
