@@ -15,7 +15,6 @@
 # Removing Files during Development
 /Assets/Scenes/PlayerTesting.unity
 /Assets/Scenes/PlayerTesting.unity.meta
-/Assets/Scenes/
 Assets/Sprites/Background_Test
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
