@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private Transform orientation;
     [SerializeField] private float drag = 6f;
+
+    [SerializeField] private AudioSource footstepsSound;
     
     private float horizontalInput;
     private float verticalInput;
@@ -22,6 +24,14 @@ public class PlayerMovement : MonoBehaviour
     {
         MyInput();
         rb.linearDamping = drag;
+        if (MyInput())
+        {
+            footstepsSound.enabled = true;
+        }else
+        {
+            footstepsSound.enabled = false;
+        }
+        
     }
 
     void FixedUpdate()
@@ -29,10 +39,15 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
     }
 
-    private void MyInput()
+    private bool MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        if (horizontalInput != 0|| verticalInput != 0)
+        {
+            return true;
+        }
+        return false;
     }
 
     private void MovePlayer()
