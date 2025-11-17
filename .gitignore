@@ -16,6 +16,7 @@
 /Assets/Scenes/PlayerTesting.unity
 /Assets/Scenes/PlayerTesting.unity.meta
 Assets/Sprites/Background_Test
+Assets/_Recovery
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
