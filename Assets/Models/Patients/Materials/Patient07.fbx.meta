@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 1b325d11ab6854f09985645dd88fca4d
+guid: 37b84e9cf1a6e41e1bcce6fe2ab498f6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_PatientsBody
+    second: {fileID: 4225986398953521042, guid: dd5c95b9bb1ae46b69f573e57dcf3760, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_PatientsHead
+    second: {fileID: -7149037331185805302, guid: dd5c95b9bb1ae46b69f573e57dcf3760, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_PatientsLimbs
+    second: {fileID: -8679302188493953849, guid: dd5c95b9bb1ae46b69f573e57dcf3760, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

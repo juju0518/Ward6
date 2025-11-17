@@ -27,9 +27,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetScene(bool forceNoAnomaly = false)
-    {
-        Debug.Log("ResetScene called"); 
-        
+    {    
         if (anomalyManager == null) 
         {
             RefreshManagers();
@@ -62,7 +60,6 @@ public class GameManager : MonoBehaviour
         
         if (anomalyExists)
         {
-
             if (foundAnomaly)
             {
                 correctGuess = true;
@@ -99,10 +96,29 @@ public class GameManager : MonoBehaviour
             Debug.Log("progress reset to 0");
         }
 
-        if (progressManager.IsAtMaxProgress())
+        ResetScene();
+    }
+    
+    public bool IsAtMaxProgress()
+    {
+        return progressManager != null && progressManager.IsAtMaxProgress();
+    }
+    
+    public bool IsCorrectFinalChoice(bool foundAnomaly)
+    {
+        Anomaly currentAnomaly = anomalyManager?.GetCurrentAnomaly();
+        bool anomalyExists = currentAnomaly != null;
+        return (foundAnomaly && anomalyExists) || (!foundAnomaly && !anomalyExists);
+    }
+    
+    public void FailedFinalTest()
+    {
+        progressManager.IncorrectGuess();
+        
+        Teleport[] allTeleporters = FindObjectsOfType<Teleport>();
+        foreach (Teleport teleporter in allTeleporters)
         {
-            Debug.Log("you won!");
-            return;
+            teleporter.ResetTeleporter();
         }
         
         ResetScene();
@@ -112,13 +128,13 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            Debug.Log("[TEST] Y key");
+            Debug.Log("Y key");
             PlayerGuess(foundAnomaly: true);
         }
         
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("[TEST] N key");
+            Debug.Log("N key");
             PlayerGuess(foundAnomaly: false);
         }
     }
