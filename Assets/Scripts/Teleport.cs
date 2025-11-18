@@ -6,6 +6,8 @@ public class Teleport : MonoBehaviour
     public Transform thisArch;
     [SerializeField] private TeleportType teleportType;
     
+    private bool isDisabled = false;
+    
     public enum TeleportType
     {
         Forward,
@@ -14,24 +16,51 @@ public class Teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (isDisabled) return;
+        
         if (other.CompareTag("Player"))
-        { 
-            Vector3 localOffset = thisArch.InverseTransformPoint(other.transform.position);
-            Quaternion rotationDiff = otherArch.rotation * Quaternion.Inverse(thisArch.rotation);
-            Vector3 rotatedOffset = rotationDiff * localOffset;
-            Vector3 targetPosition = otherArch.TransformPoint(rotatedOffset);
-            
-            other.transform.position = targetPosition;
-
+        {
             if (GameManager.Instance != null)
             {
-                bool foundAnomaly = (teleportType == TeleportType.Backward);
-                GameManager.Instance.PlayerGuess(foundAnomaly);
-            }
-            else
-            {
-                Debug.LogWarning("GameManager instance not found.");
+                if (GameManager.Instance.IsAtMaxProgress())
+                {
+                    bool foundAnomaly = (teleportType == TeleportType.Backward);
+                    bool isCorrectChoice = GameManager.Instance.IsCorrectFinalChoice(foundAnomaly);
+                    
+                    if (isCorrectChoice)
+                    {
+                        isDisabled = true;
+                        return;
+                    }
+                    else
+                    {
+                        DoTeleport(other.transform);
+                        GameManager.Instance.FailedFinalTest();
+                        return;
+                    }
+                }
+                else
+                {
+                    DoTeleport(other.transform);
+                    bool foundAnomaly = (teleportType == TeleportType.Backward);
+                    GameManager.Instance.PlayerGuess(foundAnomaly);
+                }
             }
         }
+    }
+    
+    private void DoTeleport(Transform player)
+    {
+        Vector3 localOffset = thisArch.InverseTransformPoint(player.position);
+        Quaternion rotationDiff = otherArch.rotation * Quaternion.Inverse(thisArch.rotation);
+        Vector3 rotatedOffset = rotationDiff * localOffset;
+        Vector3 targetPosition = otherArch.TransformPoint(rotatedOffset);
+        
+        player.position = targetPosition;
+    }
+    
+    public void ResetTeleporter()
+    {
+        isDisabled = false;
     }
 }
