@@ -24,7 +24,7 @@ public class AIController : MonoBehaviour
     void Update()
     {
         animator.SetBool("isMoving", true);
-        
+
         if (walkingPath.Length == 0) return;
 
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
@@ -32,6 +32,8 @@ public class AIController : MonoBehaviour
             currentIndex = (currentIndex + 1) % walkingPath.Length;
             agent.SetDestination(walkingPath[currentIndex].position);
         }
+        
+        print("AI is moving towards: " + walkingPath[currentIndex].position);
 
     }
 
