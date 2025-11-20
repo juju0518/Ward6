@@ -13,15 +13,12 @@ public class ProgressManager : MonoBehaviour
 
     private Vector3[] hourRotations = new Vector3[]
     {
-        new Vector3(-0.28f, 0f, 0f),//midnight
-        new Vector3(-0.794f, 1.9f, 29.917f), //1
-        new Vector3(-1.84f, 3.07f, 53.691f), //2
-        new Vector3(-4.07f, 3.811f, 89.713f), //3
-        new Vector3(-5.117f, 3.22f, 122.11f),//4
-        new Vector3(-6.22f, 2.158f, 145.48f),//5
-        new Vector3(-7.88f, 0.014f, 179.78f)//6
-        //new Vector3(-7.295f, -2.049f, 212.54f)//7
-        //new Vector3(-6.43f, -3.006f, 232.1f)//8
+        new Vector3(-0.28f, 0f, 0f),
+        new Vector3(-0.794f, 1.9f, 29.917f),
+        new Vector3(-1.84f, 3.07f, 53.691f),
+        new Vector3(-4.07f, 3.811f, 89.713f),
+        new Vector3(-5.117f, 3.22f, 122.11f),
+        new Vector3(-6.22f, 2.158f, 145.48f),
     };
 
     void Start()
@@ -45,21 +42,18 @@ public class ProgressManager : MonoBehaviour
     public void CorrectGuess()
     {
         currentProgress++;
-        Debug.Log($"correct! progress: {currentProgress}");
         
         OnProgressChanged?.Invoke(currentProgress);
         UpdateClock();
         
         if (currentProgress >= maxProgress)
         {
-            Debug.Log("max progress reached");
             OnMaxProgressReached?.Invoke();
         }
     }
 
     public void IncorrectGuess()
     {
-        Debug.Log($"incorrect! progress reset from {currentProgress} to 0");
         currentProgress = 0;
         
         OnProgressReset?.Invoke();
@@ -76,7 +70,6 @@ public class ProgressManager : MonoBehaviour
     {
         if (hourHand == null)
         {
-            Debug.LogWarning("hour hand not found");
             return;
         }
 
@@ -84,19 +77,7 @@ public class ProgressManager : MonoBehaviour
         {
             Vector3 targetRotation = hourRotations[currentProgress];
             hourHand.localRotation = Quaternion.Euler(targetRotation);
-            
-            Debug.Log($"clock updated to: {GetTimeString()} (rotation: {targetRotation})");
         }
-        else
-        {
-            Debug.LogWarning($"progress {currentProgress} is out of range");
-        }
-    }
-
-    private string GetTimeString()
-    {
-        if (currentProgress == 0) return "12:00 (Midnight)";
-        return $"{currentProgress}:00";
     }
 
     public void TestCorrectGuess() => CorrectGuess();
