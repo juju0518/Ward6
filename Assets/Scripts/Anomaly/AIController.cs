@@ -10,11 +10,18 @@ public class AIController : MonoBehaviour
     private NavMeshAgent agent;
     private int currentIndex = 0;
     private Animator animator;
+    private Vector3 startingPosition; 
 
     void Start()
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        
+        // Auto-assign initial position if not set in Inspector
+        if (initialPosition == null)
+        {
+            startingPosition = transform.position;
+        }
 
         if (walkingPath.Length > 0)
         {
@@ -47,7 +54,6 @@ public class AIController : MonoBehaviour
     private void OnEnable()
     {
         GameManager.OnPlayerGuess += ResetNPCs;
-
     }
 
     private void OnDisable()
@@ -57,7 +63,10 @@ public class AIController : MonoBehaviour
 
     private void ResetNPCs()
     {
-        agent.SetDestination(initialPosition.position);
+        currentIndex = 0; 
+        agent.isStopped = false;
+        Vector3 resetPosition = initialPosition != null ? initialPosition.position : startingPosition;
+        agent.SetDestination(resetPosition);
+        animator.SetBool("isMoving", true);
     }
- 
 }

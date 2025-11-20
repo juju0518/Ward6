@@ -1,14 +1,13 @@
 using UnityEngine;
-using System.Collections;
+using System;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    public static event Action OnPlayerGuess; // Maira
+    
     private AnomalyManager anomalyManager;
     private ProgressManager progressManager;
-
-    public delegate void GuessAction();
-    public static event GuessAction OnPlayerGuess;
 
     void Start()
     {
@@ -31,7 +30,9 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetScene(bool forceNoAnomaly = false)
-    {    
+    {
+        Debug.Log("ResetScene called"); 
+        
         if (anomalyManager == null) 
         {
             RefreshManagers();
@@ -52,13 +53,14 @@ public class GameManager : MonoBehaviour
 
     public void PlayerGuess(bool foundAnomaly)
     {
-        OnPlayerGuess?.Invoke();
-
         if (progressManager == null) 
         {
             RefreshManagers();
             if (progressManager == null) return;
         }
+
+        // Maira's line
+        OnPlayerGuess?.Invoke();
 
         Anomaly currentAnomaly = anomalyManager?.GetCurrentAnomaly();
         bool anomalyExists = currentAnomaly != null;
@@ -114,11 +116,17 @@ public class GameManager : MonoBehaviour
     {
         Anomaly currentAnomaly = anomalyManager?.GetCurrentAnomaly();
         bool anomalyExists = currentAnomaly != null;
+        
         return (foundAnomaly && anomalyExists) || (!foundAnomaly && !anomalyExists);
     }
     
     public void FailedFinalTest()
     {
+        Debug.Log("Failed final test - resetting progress and re-enabling teleporters");
+        
+        // maira
+        OnPlayerGuess?.Invoke();
+        
         progressManager.IncorrectGuess();
         
         Teleport[] allTeleporters = FindObjectsOfType<Teleport>();
@@ -134,13 +142,13 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            Debug.Log("Y key");
+            Debug.Log("[TEST] Y key");
             PlayerGuess(foundAnomaly: true);
         }
         
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("N key");
+            Debug.Log("[TEST] N key");
             PlayerGuess(foundAnomaly: false);
         }
     }
