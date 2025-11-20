@@ -4,8 +4,8 @@ using System.Linq;
 
 public class AnomalyManager : MonoBehaviour
 {
-    [SerializeField] private float anomalyChance; // x% chance of an anomaly
-    [SerializeField] private float obviousnessChance; // x% obvious 1 - x% not 
+    [SerializeField] private float anomalyChance;
+    [SerializeField] private float obviousnessChance;
     private static List<Anomaly> allAnomalies; 
     private List<Anomaly> availableAnomalies;
     private Anomaly currentAnomaly;

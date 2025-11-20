@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerCam : MonoBehaviour
 {
     public float senX;
     public float senY;
@@ -27,7 +27,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0); 
+        transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0);
+        orientation.localRotation = Quaternion.Euler(0, yRotation, 0); 
     }
 }
