@@ -40,6 +40,8 @@ public class AIController : MonoBehaviour
                 agent.isStopped = true;
             }
         }
+
+        Debug.Log(gameObject.tag)
     } 
 
     private void OnEnable()
