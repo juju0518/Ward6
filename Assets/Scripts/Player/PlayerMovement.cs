@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        Debug.Log("Moving Player");
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
         //rb.MovePosition(rb.position + moveDirection.normalized * moveSpeed * Time.deltaTime);
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);

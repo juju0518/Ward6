@@ -4,6 +4,7 @@ using UnityEngine.AI;
 public class AIController : MonoBehaviour
 {
     [SerializeField] public Transform[] walkingPath;
+    [SerializeField] public Transform initialPosition;
     public float arriveDistance = 1f;
 
     private NavMeshAgent agent;
@@ -24,15 +25,37 @@ public class AIController : MonoBehaviour
     void Update()
     {
         animator.SetBool("isMoving", true);
-        
+
         if (walkingPath.Length == 0) return;
 
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
         {
-            currentIndex = (currentIndex + 1) % walkingPath.Length;
-            agent.SetDestination(walkingPath[currentIndex].position);
+            if (currentIndex < walkingPath.Length - 1){
+                currentIndex++;
+                agent.SetDestination(walkingPath[currentIndex].position);
+            }
+            else
+            {
+                animator.SetBool("isMoving", false);
+                agent.isStopped = true;
+            }
         }
+    } 
+
+    private void OnEnable()
+    {
+        GameManager.OnPlayerGuess += ResetNPCs;
 
     }
 
+    private void OnDisable()
+    {
+        GameManager.OnPlayerGuess -= ResetNPCs;
+    }
+
+    private void ResetNPCs()
+    {
+        agent.SetDestination(initialPosition.position);
+    }
+ 
 }

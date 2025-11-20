@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2855164610244869430}
   - component: {fileID: 6826712783426214629}
   - component: {fileID: 4382244581369648731}
+  - component: {fileID: 5193475780423047381}
   m_Layer: 0
   m_Name: StartPoint
   m_TagString: Untagged
@@ -111,6 +112,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5193475780423047381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333040118288463117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081cc51c6e7e54185b13b16bf4e4279b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Teleport
+  otherArch: {fileID: 4353455286317249213}
+  thisArch: {fileID: 6728368342541935608}
+  teleportType: 1
 --- !u!1 &757023803481301594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1029,7 @@ GameObject:
   - component: {fileID: 369680727008676308}
   - component: {fileID: 4551619771476257181}
   - component: {fileID: 11094954220008628}
+  - component: {fileID: 9116175893995120359}
   m_Layer: 0
   m_Name: StartPoint
   m_TagString: Untagged
@@ -1112,6 +1129,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9116175893995120359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4920651871190296334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081cc51c6e7e54185b13b16bf4e4279b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Teleport
+  otherArch: {fileID: 6728368342541935608}
+  thisArch: {fileID: 4353455286317249213}
+  teleportType: 0
 --- !u!1 &5667000871055023436
 GameObject:
   m_ObjectHideFlags: 0
