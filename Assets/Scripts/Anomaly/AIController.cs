@@ -31,6 +31,7 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("I am: " + gameObject.tag);
         animator.SetBool("isMoving", true);
 
         if (walkingPath.Length == 0) return;
@@ -47,9 +48,13 @@ public class AIController : MonoBehaviour
                 agent.isStopped = true;
             }
         }
+    }
 
-        Debug.Log(gameObject.tag)
-    } 
+    private void HitAnomaly()
+    {
+        Debug.Log(gameObject.tag);
+
+    }
 
     private void OnEnable()
     {
@@ -66,7 +71,8 @@ public class AIController : MonoBehaviour
         currentIndex = 0; 
         agent.isStopped = false;
         Vector3 resetPosition = initialPosition != null ? initialPosition.position : startingPosition;
-        agent.SetDestination(resetPosition);
+        //agent.SetDestination(resetPosition);
+        transform.position = initialPosition.position;
         animator.SetBool("isMoving", true);
     }
 }
