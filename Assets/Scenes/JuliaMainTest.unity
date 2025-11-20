@@ -390,6 +390,7 @@ MonoBehaviour:
   moveSpeed: 10
   orientation: {fileID: 1817549615}
   drag: 6
+  footstepsSound: {fileID: 0}
 --- !u!136 &366582376
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -579,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8233ce88ac94c5a9bafd98b0a5126b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProgressManager
-  maxProgress: 5
+  maxProgress: 1
   hourHand: {fileID: 1285226232}
   OnProgressChanged:
     m_PersistentCalls:
