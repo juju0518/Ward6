@@ -4,7 +4,7 @@ using System;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public static event Action OnPlayerGuess; // Maira
+    public static event Action OnPlayerGuess;
     
     private AnomalyManager anomalyManager;
     private ProgressManager progressManager;
@@ -30,9 +30,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetScene(bool forceNoAnomaly = false)
-    {
-        Debug.Log("ResetScene called"); 
-        
+    {   
         if (anomalyManager == null) 
         {
             RefreshManagers();
@@ -43,11 +41,9 @@ public class GameManager : MonoBehaviour
         
         if (forceNoAnomaly || (progressManager != null && progressManager.GetCurrentProgress() == 0))
         {
-            Debug.Log("no anomaly spawned"); 
             return;
         }
 
-        Debug.Log("attempting to spawn anomaly");
         anomalyManager.TrySpawnAnomaly();
     }
 
@@ -59,7 +55,6 @@ public class GameManager : MonoBehaviour
             if (progressManager == null) return;
         }
 
-        // Maira's line
         OnPlayerGuess?.Invoke();
 
         Anomaly currentAnomaly = anomalyManager?.GetCurrentAnomaly();
@@ -71,12 +66,10 @@ public class GameManager : MonoBehaviour
             if (foundAnomaly)
             {
                 correctGuess = true;
-                Debug.Log("CORRECT, anomaly existed");
             }
             else
             {
                 correctGuess = false;
-                Debug.Log("INCORRECT, anomaly existed and was ignored");
             }
         }
         else
@@ -84,24 +77,20 @@ public class GameManager : MonoBehaviour
             if (!foundAnomaly)
             {
                 correctGuess = true;
-                Debug.Log("CORRECT, no anomaly");
             }
             else
             {
                 correctGuess = false;
-                Debug.Log("INCORRECT, no anomaly but walked backward");
             }
         }
 
         if (correctGuess)
         {
             progressManager.CorrectGuess();
-            Debug.Log($"progress advanced to: {progressManager.GetCurrentProgress()}");
         }
         else
         {
             progressManager.IncorrectGuess();
-            Debug.Log("progress reset to 0");
         }
 
         ResetScene();
@@ -122,9 +111,7 @@ public class GameManager : MonoBehaviour
     
     public void FailedFinalTest()
     {
-        Debug.Log("Failed final test - resetting progress and re-enabling teleporters");
         
-        // maira
         OnPlayerGuess?.Invoke();
         
         progressManager.IncorrectGuess();
@@ -136,20 +123,5 @@ public class GameManager : MonoBehaviour
         }
         
         ResetScene();
-    }
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            Debug.Log("[TEST] Y key");
-            PlayerGuess(foundAnomaly: true);
-        }
-        
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            Debug.Log("[TEST] N key");
-            PlayerGuess(foundAnomaly: false);
-        }
     }
 }

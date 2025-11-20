@@ -124,6 +124,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3588768944191444864, guid: 45e49615a7be042f69bf82022414bb86, type: 3}
   m_PrefabInstance: {fileID: 822781377630708984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &609060279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7668191489351215082, guid: 6d6df7dec740d4568a82940a79112411, type: 3}
+  m_PrefabInstance: {fileID: 1313255525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &609060284 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1317129205442714397, guid: 6d6df7dec740d4568a82940a79112411, type: 3}
+  m_PrefabInstance: {fileID: 1313255525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &609060285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609060279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31c96fa5e56b4afcb07f355543d3b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShakeCam
+  playerCam: {fileID: 609060284}
+  shakeDuration: 0.2
+  shakeMagnitude: 0.1
 --- !u!4 &759389428 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3436538631277399679, guid: 45e49615a7be042f69bf82022414bb86, type: 3}
@@ -337,7 +362,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7668191489351215082, guid: 6d6df7dec740d4568a82940a79112411, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 609060285}
   m_SourcePrefab: {fileID: 100100000, guid: 6d6df7dec740d4568a82940a79112411, type: 3}
 --- !u!4 &1430795161 stripped
 Transform:
@@ -498,6 +526,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5176967907225954616, guid: 45e49615a7be042f69bf82022414bb86, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120622938477208451, guid: 45e49615a7be042f69bf82022414bb86, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
