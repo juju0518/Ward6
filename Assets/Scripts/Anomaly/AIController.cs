@@ -10,34 +10,31 @@ public class AIController : MonoBehaviour
     private NavMeshAgent agent;
     private int currentIndex = 0;
     private Animator animator;
-    private Vector3 startingPosition; 
+    private Vector3 startingPosition;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         
-        // Auto-assign initial position if not set in Inspector
         if (initialPosition == null)
         {
             startingPosition = transform.position;
         }
 
-        if (walkingPath.Length > 0)
-        {
-            agent.SetDestination(walkingPath[currentIndex].position);
-        }
+        StartWalkingPath();
     }
 
     void Update()
     {
-        animator.SetBool("isMoving", true);
-
         if (walkingPath.Length == 0) return;
+
+        animator.SetBool("isMoving", !agent.isStopped && agent.velocity.magnitude > 0.1f);
 
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
         {
-            if (currentIndex < walkingPath.Length - 1){
+            if (currentIndex < walkingPath.Length - 1)
+            {
                 currentIndex++;
                 agent.SetDestination(walkingPath[currentIndex].position);
             }
@@ -61,10 +58,20 @@ public class AIController : MonoBehaviour
 
     private void ResetNPCs()
     {
-        currentIndex = 0; 
-        agent.isStopped = false;
         Vector3 resetPosition = initialPosition != null ? initialPosition.position : startingPosition;
-        agent.SetDestination(resetPosition);
-        animator.SetBool("isMoving", true);
+        transform.position = resetPosition;
+        currentIndex = 0;
+        agent.isStopped = false;
+        StartWalkingPath();
+    }
+    
+    private void StartWalkingPath()
+    {
+        if (walkingPath.Length > 0)
+        {
+            currentIndex = 0;
+            agent.SetDestination(walkingPath[currentIndex].position);
+            animator.SetBool("isMoving", true);
+        }
     }
 }
