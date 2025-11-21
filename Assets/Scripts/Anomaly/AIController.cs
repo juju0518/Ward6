@@ -5,7 +5,9 @@ public class AIController : MonoBehaviour
 {
     [SerializeField] public Transform[] walkingPath;
     [SerializeField] public Transform initialPosition;
-    [SerializeField] public bool definedPath = true;
+    [SerializeField] public bool stopMoving = true;
+    [SerializeField] private float Speed = 3.5f;
+
 
     public float arriveDistance = 1f;
 
@@ -18,6 +20,8 @@ public class AIController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+
+        agent.speed = Speed;
         
         if (initialPosition == null)
         {
@@ -29,23 +33,31 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("I am: " + gameObject.tag);
+        if(gameObject.tag == "Anomaly"){
+            HitAnomaly();
+        }
+
         animator.SetBool("isMoving", true);
 
-        if (definedPath == true) DefinedPath();
-    }
-
-    private void RandomPath()
-    {
+        if (stopMoving == true) StopMoving();
+        MoveConstantly();
         
     }
 
-    private void DefinedPath()
+    private void MoveConstantly()
     {
         if (walkingPath.Length == 0) return;
+        if (!agent.pathPending && agent.remainingDistance < arriveDistance)
+        {
+            currentIndex = (currentIndex + 1) % walkingPath.Length; 
+            agent.SetDestination(walkingPath[currentIndex].position);
+        }   
+    }
 
+    private void StopMoving()
+    {
+        if (walkingPath.Length == 0) return;
         animator.SetBool("isMoving", !agent.isStopped && agent.velocity.magnitude > 0.1f);
-
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
         {
             if (currentIndex < walkingPath.Length - 1)
@@ -62,13 +74,9 @@ public class AIController : MonoBehaviour
 
     }
 
-    private void WalkRandom(){
-
-    }
-
     private void HitAnomaly()
     {
-        Debug.Log(gameObject.tag);
+        Debug.Log("I am: " + gameObject.tag);
 
     }
 
