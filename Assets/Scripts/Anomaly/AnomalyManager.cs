@@ -34,7 +34,6 @@ public class AnomalyManager : MonoBehaviour
 
         if (!forceSpawn && Random.value > anomalyChance)
         {
-            Debug.Log("no anomaly this scene");
             return false;
         }
 
