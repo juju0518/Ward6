@@ -33,9 +33,9 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        if(gameObject.tag == "Anomaly"){
-            HitAnomaly();
-        }
+        //if(gameObject.tag == "Anomaly"){
+        //    HitAnomaly();
+        //}
 
         animator.SetBool("isMoving", true);
 
