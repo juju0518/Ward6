@@ -14,6 +14,8 @@ public class AnomalyManager : MonoBehaviour
     {
         allAnomalies = FindObjectsOfType<Anomaly>().ToList();
         RefillAvailableAnomalies();
+
+        Debug.Log("All anomalies found: " + allAnomalies.Count);
     }
 
     public void DeactivateAllAnomalies()
