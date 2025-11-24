@@ -2,17 +2,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private Transform orientation;
     [SerializeField] private float drag = 6f;
-
     [SerializeField] private AudioSource footstepsSound;
     
     private float horizontalInput;
     private float verticalInput;
     private Vector3 moveDirection;
     private Rigidbody rb;
+    private bool canPlayFootsteps = true;
 
     void Start()
     {
@@ -24,14 +23,22 @@ public class PlayerMovement : MonoBehaviour
     {
         MyInput();
         rb.linearDamping = drag;
-        if (MyInput())
+        
+        if (canPlayFootsteps)
         {
-            footstepsSound.enabled = true;
-        }else
+            if (MyInput())
+            {
+                footstepsSound.enabled = true;
+            }
+            else
+            {
+                footstepsSound.enabled = false;
+            }
+        }
+        else
         {
             footstepsSound.enabled = false;
         }
-        
     }
 
     void FixedUpdate()
@@ -43,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-        if (horizontalInput != 0|| verticalInput != 0)
+        if (horizontalInput != 0 || verticalInput != 0)
         {
             return true;
         }
@@ -53,7 +60,12 @@ public class PlayerMovement : MonoBehaviour
     private void MovePlayer()
     {
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-        //rb.MovePosition(rb.position + moveDirection.normalized * moveSpeed * Time.deltaTime);
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+    }
+    
+    public void StopFootsteps()
+    {
+        canPlayFootsteps = false;
+        footstepsSound.enabled = false;
     }
 }

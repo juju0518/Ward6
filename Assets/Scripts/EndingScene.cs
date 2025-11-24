@@ -3,18 +3,40 @@ using System.Collections;
 
 public class EndingScene : MonoBehaviour
 {
-
     public CanvasGroup fadeOut;
     public float fadeDuration = 2f;
     public string playerTag = "Player";
     private bool hasTriggered = false;
+    [SerializeField] private AudioClip winningSound;
+    private AudioSource audioSource;
 
-    private void OnTriggerEnter(Collider other)
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+    }
+
+   private void OnTriggerEnter(Collider other)
     {
         if (hasTriggered) return;
         if (!other.CompareTag(playerTag)) return;
 
         hasTriggered = true;
+        
+        PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();
+        if (playerMovement != null)
+        {
+            playerMovement.StopFootsteps();
+        }
+        
+        if (winningSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(winningSound);
+        }
+        
         StartCoroutine(FadeOut());
     }
 

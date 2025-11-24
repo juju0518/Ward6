@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class ProgressManager : MonoBehaviour
 {
-    [SerializeField] private int maxProgress;
+    [SerializeField] private int maxProgress = 5;
     [SerializeField] private Transform hourHand;
     
     public UnityEvent<int> OnProgressChanged;

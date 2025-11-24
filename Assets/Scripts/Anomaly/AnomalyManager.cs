@@ -4,9 +4,9 @@ using System.Linq;
 
 public class AnomalyManager : MonoBehaviour
 {
-    [SerializeField] private float anomalyChance;
-    [SerializeField] private float obviousnessChance;
-    private static List<Anomaly> allAnomalies; 
+    [SerializeField] private float anomalyChance = 0.6f;
+    [SerializeField] private float obviousnessChance = 0.2f;
+    private List<Anomaly> allAnomalies; 
     private List<Anomaly> availableAnomalies;
     private Anomaly currentAnomaly;
 
@@ -61,6 +61,7 @@ public class AnomalyManager : MonoBehaviour
             availableAnomalies.Remove(currentAnomaly);
             currentAnomaly.SetActiveAnomaly(true);
             
+            Debug.Log($"spawned anomaly: {currentAnomaly.name} ({currentAnomaly.obviousness}) - {availableAnomalies.Count} not yet seen");
             return true;
         }
 
@@ -76,4 +77,5 @@ public class AnomalyManager : MonoBehaviour
     {
         return currentAnomaly;
     }
+
 }
