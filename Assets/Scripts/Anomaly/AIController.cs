@@ -37,7 +37,7 @@ public class AIController : MonoBehaviour
         //    HitAnomaly();
         //}
 
-        animator.SetBool("isMoving", true);
+        //animator.SetBool("isMoving", true);
 
         if (stopMoving == true) StopMoving();
         MoveConstantly();
@@ -57,7 +57,7 @@ public class AIController : MonoBehaviour
     private void StopMoving()
     {
         if (walkingPath.Length == 0) return;
-        animator.SetBool("isMoving", !agent.isStopped && agent.velocity.magnitude > 0.1f);
+        //animator.SetBool(!agent.isStopped && agent.velocity.magnitude > 0.1f);
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
         {
             if (currentIndex < walkingPath.Length - 1)
@@ -67,7 +67,7 @@ public class AIController : MonoBehaviour
             }
             else
             {
-                animator.SetBool("isMoving", false);
+                //animator.SetBool("isMoving", false);
                 agent.isStopped = true;
             }
         }
@@ -105,7 +105,7 @@ public class AIController : MonoBehaviour
         {
             currentIndex = 0;
             agent.SetDestination(walkingPath[currentIndex].position);
-            animator.SetBool("isMoving", true);
+            //animator.SetBool("isMoving", true);
         }
     }
 }

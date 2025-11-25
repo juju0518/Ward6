@@ -381,18 +381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &10719373
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -729,18 +717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &42275615
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -806,7 +782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &43330896
 Transform:
   m_ObjectHideFlags: 0
@@ -1100,18 +1076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &47999761
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1786,7 +1750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cd858eb955708463688cd86afa668498, type: 3}
       propertyPath: m_Name
-      value: bed (2)
+      value: Bed_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2271,18 +2235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &97945055
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3288,18 +3240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &143480873
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4075,18 +4015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &179976471
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4198,7 +4126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cd858eb955708463688cd86afa668498, type: 3}
       propertyPath: m_Name
-      value: bed
+      value: Bed_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4613,18 +4541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &202394577
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6073,18 +5989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &258073631
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6508,7 +6412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288741824}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6516,7 +6420,7 @@ Transform:
   - {fileID: 1874454994}
   - {fileID: 1299699391}
   - {fileID: 1918802216}
-  m_Father: {fileID: 2902752701114373499}
+  m_Father: {fileID: 649999585}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &288925614
 PrefabInstance:
@@ -7605,18 +7509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &306194885
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8156,18 +8048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &321486698
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8926,18 +8806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &351715764
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9376,18 +9244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &368378990
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9672,18 +9528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &372158161
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11688,18 +11532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &429188379
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12383,18 +12215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &454738503
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12706,18 +12526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &455408079
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13490,18 +13298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &468689046
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13613,7 +13409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cd858eb955708463688cd86afa668498, type: 3}
       propertyPath: m_Name
-      value: bed (1)
+      value: Bed_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14815,18 +14611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &523917324
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15391,18 +15175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &539078416
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15826,18 +15598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &543083614
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -16115,18 +15875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &546239003
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -16421,18 +16169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &551589775
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -17647,18 +17383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &602672926
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18529,18 +18253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &639866619
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18872,18 +18584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &647877740
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -19188,18 +18888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &649522333
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -19484,18 +19172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &649890172
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -19545,6 +19221,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1 &649999584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649999585}
+  m_Layer: 0
+  m_Name: IVs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &649999585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649999584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1500471999}
+  - {fileID: 288741825}
+  m_Father: {fileID: 2902752701114373499}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &651832462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20617,18 +20326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &684598302
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -20878,166 +20575,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1852591544}
   m_SourcePrefab: {fileID: 100100000, guid: 3408d5d5b4e7540939944b0eb0e4d417, type: 3}
---- !u!1001 &691637700
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1050819594}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.054560006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06966
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0043600127
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.4012931
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0000001490116
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.00000008940696
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9159497
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -42.682
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-      propertyPath: m_Name
-      value: IV_Bag (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
---- !u!4 &691637701 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
-  m_PrefabInstance: {fileID: 691637700}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &692249197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07847b601182740d79c2c392e6b00baa, type: 3}
   m_PrefabInstance: {fileID: 4737374589911761921}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &694370265
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1050819594}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.056979995
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06960999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.009910001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.22458775
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.22458775
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.67049265
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.6704926
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-      propertyPath: m_Name
-      value: IV_Bag_holder (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
---- !u!4 &694370266 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
-  m_PrefabInstance: {fileID: 694370265}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &702182654 stripped
 GameObject:
@@ -21626,18 +21167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &723255682
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21964,18 +21493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &731385263
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22364,18 +21881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &743603694
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22687,18 +22192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &745265018
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -23350,18 +22843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &770284035
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -23671,18 +23152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &776897509
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24282,18 +23751,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &797220036
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -25374,18 +24831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &839547011
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -25553,7 +24998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &850940215
 Transform:
   m_ObjectHideFlags: 0
@@ -26381,18 +25826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &889255778
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -27085,18 +26518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &915388347
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -27274,7 +26695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &924816781
 Transform:
   m_ObjectHideFlags: 0
@@ -28049,18 +27470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &937308199
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -28542,18 +27951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &962939154
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -29707,18 +29104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &982332686
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -29768,6 +29153,82 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1001 &983744527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1039563819}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0075000045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0074999994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.007500003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04453
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06097
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      propertyPath: m_Name
+      value: PatientInBed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2118272736}
+  m_SourcePrefab: {fileID: 100100000, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
 --- !u!4 &987687111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9c17ab43b5a24474a36d6979f1e6e4d, type: 3}
@@ -30035,18 +29496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1001940605
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -30331,7 +29780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade2e49eb028945c9ba9a6b3120eed07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anomaly
-  normalAppearance: {fileID: 1050819593}
+  normalAppearance: {fileID: 649999584}
   anomalyAppearance: {fileID: 698203936419414964}
   obviousness: 0
 --- !u!1 &1026729907
@@ -30417,10 +29866,11 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2118272735}
   - {fileID: 180751426}
   - {fileID: 472849063}
-  - {fileID: 2119527460}
   - {fileID: 76335082}
+  - {fileID: 2119527460}
   - {fileID: 1328233113}
   - {fileID: 1310036399}
   - {fileID: 1981911124}
@@ -30490,39 +29940,6 @@ Transform:
   m_Children:
   - {fileID: 1967699446}
   - {fileID: 1742088433}
-  m_Father: {fileID: 2902752701114373499}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1050819593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1050819594}
-  m_Layer: 0
-  m_Name: IV_BagHolder + Bag (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1050819594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050819593}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 694370266}
-  - {fileID: 691637701}
   m_Father: {fileID: 2902752701114373499}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1051169745 stripped
@@ -31027,7 +30444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1061658260
 Transform:
   m_ObjectHideFlags: 0
@@ -31157,7 +30574,7 @@ GameObject:
   - component: {fileID: 1073856938}
   - component: {fileID: 1073856939}
   m_Layer: 0
-  m_Name: SmallPatient
+  m_Name: PatientInBed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32393,18 +31810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1126774869
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -32736,18 +32141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1132142381
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -33057,18 +32450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1134507084
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -33430,18 +32811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1139625112
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -33746,18 +33115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1142472780
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34684,18 +34041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1192781627
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34761,7 +34106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1193191865
 Transform:
   m_ObjectHideFlags: 0
@@ -36018,18 +35363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1220752536
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -36341,18 +35674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1224775112
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -36907,18 +36228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1243512826
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -37401,18 +36710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1254798768
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -38359,18 +37656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1293967098
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -38811,18 +38096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1299790914
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -39216,18 +38489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1314758798
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -39844,18 +39105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1330661538
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -40431,18 +39680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1362883753
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -41881,18 +41118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1421663154
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -42110,6 +41335,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7922731828707962573, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
       propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7922731828707962573, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7922731828707962573, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
@@ -42993,18 +42222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1455625596
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -43090,7 +42307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1460314559
 Transform:
   m_ObjectHideFlags: 0
@@ -43513,18 +42730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1468397283
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -44330,18 +43535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1496105865
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -44415,13 +43608,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500471998}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1857943991}
-  m_Father: {fileID: 2902752701114373499}
+  m_Father: {fileID: 649999585}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1506524844
 PrefabInstance:
@@ -45866,18 +45059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1583921135
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -46313,18 +45494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1587431695
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47281,18 +46450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1636555875
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47619,18 +46776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1638024534
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -48552,18 +47697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1671661962
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -48989,18 +48122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1672992807
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -49343,18 +48464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1680310538
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -49681,18 +48790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1691464756
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -50123,18 +49220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1702198458
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -51993,18 +51078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1775029453
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -52559,18 +51632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1809823559
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -53217,18 +52278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1834420726
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -54161,18 +53210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1851737206
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -54912,18 +53949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1860013774
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -57204,18 +56229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1967351251
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -57587,18 +56600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &1973218927
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -58053,18 +57054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &2009657701
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -58546,18 +57535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &2028625007
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -59116,18 +58093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 1850445091}
-  - {fileID: 951280246}
-  - {fileID: 898799794}
-  - {fileID: 1384133958}
-  - {fileID: 568258072}
-  - {fileID: 1722638375}
-  - {fileID: 1415996023}
-  initialPosition: {fileID: 1850445091}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 1
 --- !u!195 &2048451481
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -60306,6 +59271,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07847b601182740d79c2c392e6b00baa, type: 3}
   m_PrefabInstance: {fileID: 6628252795502327012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2118272734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+  m_PrefabInstance: {fileID: 983744527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2118272735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 748fc4c6feafc402f97ea890b7719d88, type: 3}
+  m_PrefabInstance: {fileID: 983744527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2118272736
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118272734}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 928ae71fc689843f994c7868f69fdfc0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2119527459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69204,9 +68201,7 @@ Transform:
   - {fileID: 58212829}
   - {fileID: 285515285}
   - {fileID: 1883781673}
-  - {fileID: 1500471999}
-  - {fileID: 288741825}
-  - {fileID: 1050819594}
+  - {fileID: 649999585}
   - {fileID: 1047234442}
   m_Father: {fileID: 1188824730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
