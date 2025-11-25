@@ -68653,7 +68653,7 @@ MonoBehaviour:
   fadeOut: {fileID: 5318833811054923385}
   fadeDuration: 2
   playerTag: Player
-  winningSound: {fileID: 0}
+  winningSound: {fileID: 8300000, guid: 2a731ee32fd6c4ec78fa5d70c79aef27, type: 3}
 --- !u!1001 &3074914778348866021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85261,7 +85261,7 @@ MonoBehaviour:
   fadeOut: {fileID: 5318833811054923385}
   fadeDuration: 2
   playerTag: Player
-  winningSound: {fileID: 0}
+  winningSound: {fileID: 8300000, guid: 2a731ee32fd6c4ec78fa5d70c79aef27, type: 3}
 --- !u!1001 &7897738661218567488
 PrefabInstance:
   m_ObjectHideFlags: 0
