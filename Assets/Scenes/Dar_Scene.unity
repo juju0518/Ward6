@@ -1091,17 +1091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &58797426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1414,17 +1406,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &104619194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1517,17 +1501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &104673879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1651,17 +1627,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &120030477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1754,17 +1722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &140215511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1830,17 +1790,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &162695033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1906,17 +1858,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &168548342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2737,6 +2681,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2018244045}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb129adc4c94760b7b2bbfcfe1376c, type: 3}
+--- !u!4 &174510239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5128116799130957629, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+  m_PrefabInstance: {fileID: 5815911584366827056}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &189552618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3478,17 +3427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &224751441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3869,17 +3810,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &247396355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4214,17 +4147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &280405508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4552,17 +4477,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &299552550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4963,17 +4880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &328086350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5271,7 +5180,6 @@ GameObject:
   - component: {fileID: 366582377}
   - component: {fileID: 366582376}
   - component: {fileID: 366582375}
-  - component: {fileID: 366582378}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5309,10 +5217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adf251cafbe34018a95d5c2713ea169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 2
+  moveSpeed: 10
   orientation: {fileID: 1817549615}
   drag: 6
-  footstepsSound: {fileID: 366582378}
+  footstepsSound: {fileID: 508748388}
 --- !u!136 &366582376
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5363,103 +5271,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!82 &366582378
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366582373}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 28fa90a4381d44f7fa7ccd1484669edb, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &376330717
 GameObject:
   m_ObjectHideFlags: 0
@@ -5513,17 +5324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &378337236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5647,17 +5450,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &399168408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6572,17 +6367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &452604591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6675,17 +6462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &459931986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6751,17 +6530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &484295588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6854,17 +6625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &487932972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7412,6 +7175,135 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 722810726}
   m_SourcePrefab: {fileID: 100100000, guid: 1ccb129adc4c94760b7b2bbfcfe1376c, type: 3}
+--- !u!1 &508748386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508748387}
+  - component: {fileID: 508748388}
+  m_Layer: 0
+  m_Name: Steps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &508748387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508748386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.565001, y: -5.2590003, z: 6.848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &508748388
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508748386}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 28fa90a4381d44f7fa7ccd1484669edb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &524575576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8691,17 +8583,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &619229569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9036,17 +8920,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &640224445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9139,17 +9015,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &643986024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9420,17 +9288,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &676248596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9775,17 +9635,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &722810727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9851,17 +9703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &736894622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9954,17 +9798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &742405772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10057,17 +9893,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &751930924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10886,17 +10714,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &777020919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11262,17 +11082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &788734716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11638,17 +11450,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &815036559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11776,17 +11580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &824709437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11879,17 +11675,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &829817464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11955,17 +11743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &834547079
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12058,17 +11838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &837311834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12231,17 +12003,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!1001 &847712721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12748,17 +12512,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &856003417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13124,17 +12880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &867449282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13227,17 +12975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &875716004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14079,17 +13819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &893978882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14155,17 +13887,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &899911218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15192,17 +14916,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &951253950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15537,17 +15253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &973968123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15882,17 +15590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &980250451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15985,17 +15685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1003028364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16061,17 +15753,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1015103485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16399,17 +16083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1027689516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17013,17 +16689,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1124000241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17840,17 +17508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1169893798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18432,17 +18092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1205590773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18872,6 +18524,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1786843193}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242358180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242358181}
+  m_Layer: 0
+  m_Name: NoSteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242358181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242358180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 174510239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1254089288
 GameObject:
@@ -19774,17 +19457,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1332998103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19877,17 +19552,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1337151014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20469,17 +20136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1365925787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20572,17 +20231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1394043153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20635,9 +20286,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1399649117}
-  - component: {fileID: 1399649116}
-  - component: {fileID: 1399649115}
-  - component: {fileID: 1399649114}
   m_Layer: 0
   m_Name: Player (no footsteps)
   m_TagString: Player
@@ -20645,72 +20293,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1399649114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399649113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1adf251cafbe34018a95d5c2713ea169, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 2
-  orientation: {fileID: 668796975}
-  drag: 6
-  footstepsSound: {fileID: 0}
---- !u!136 &1399649115
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399649113}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.4957484
-  m_Height: 1.9728183
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.83584183, z: 0.50275815}
---- !u!54 &1399649116
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399649113}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!4 &1399649117
 Transform:
   m_ObjectHideFlags: 0
@@ -20993,17 +20575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1405903265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21369,17 +20943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1420606739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21472,17 +21038,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1491476731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21575,17 +21133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1505784927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22639,17 +22189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1528519110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22812,17 +22354,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!1 &1555501421
 GameObject:
   m_ObjectHideFlags: 0
@@ -23360,17 +22894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1605032855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23463,17 +22989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1618810330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23566,17 +23084,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1629443040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23985,17 +23495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!4 &1663762610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4363625270676932364, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
@@ -24093,17 +23595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!1 &1698203440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3574407588279185214, guid: 1ccb129adc4c94760b7b2bbfcfe1376c, type: 3}
@@ -24126,17 +23620,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1698203443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24294,17 +23780,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!1 &1724702503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3574407588279185214, guid: 1ccb129adc4c94760b7b2bbfcfe1376c, type: 3}
@@ -24327,17 +23805,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1724702506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24430,17 +23900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1726345679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25000,17 +24462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1761609361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25387,17 +24841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1794967124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26002,17 +25448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1858362279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26589,17 +26027,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1890510031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26685,7 +26115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1893154151
 Transform:
   m_ObjectHideFlags: 0
@@ -26803,17 +26233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1902201260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26906,17 +26328,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1902985338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27009,17 +26423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1928617612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28375,17 +27781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &1998044685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29221,17 +28619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &2018244046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29539,17 +28929,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &2023664444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29642,17 +29024,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &2030364016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29745,17 +29119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &2056762174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30121,17 +29487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath:
-  - {fileID: 713954874}
-  - {fileID: 1663762610}
-  - {fileID: 1340995893}
-  - {fileID: 1124731292}
-  - {fileID: 1994511023}
-  - {fileID: 1934426112}
-  initialPosition: {fileID: 713954874}
-  stopMoving: 0
-  Speed: 3.5
-  arriveDistance: 0.5
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!65 &2145811337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30210,14 +29568,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 84330518014188107, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 116755334353330592, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 500060159245818607, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: normalAppearance
       value: 
       objectReference: {fileID: 1855803150}
+    - target: {fileID: 965136355885704997, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1238405635248082351, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2265455242413324634, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: normalAppearance
       value: 
       objectReference: {fileID: 1077940742}
+    - target: {fileID: 2660830591117436813, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759928565485197091, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3396009260977707823, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603135295908244551, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058477907456823578, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: obviousnessChance
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6235430650041527459, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: normalAppearance
       value: 
@@ -30274,14 +29668,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7717131141142312993, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8003500272876707674, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: normalAppearance
       value: 
-      objectReference: {fileID: 366582373}
+      objectReference: {fileID: 508748386}
     - target: {fileID: 8003500272876707674, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: anomalyAppearance
       value: 
-      objectReference: {fileID: 1399649113}
+      objectReference: {fileID: 1242358180}
+    - target: {fileID: 8166720847603565476, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510025936030480830, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9182971492424096576, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       propertyPath: m_Name
       value: Anomalies
@@ -30289,6 +29695,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5128116799130957629, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1242358181}
     - targetCorrespondingSourceObject: {fileID: 6071946152060788168, guid: 838e4fc435e534b8e9a2e7456d01c15e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1994511023}
@@ -30305,6 +29714,7 @@ SceneRoots:
   - {fileID: 318580979}
   - {fileID: 1270526847}
   - {fileID: 366582374}
+  - {fileID: 508748387}
   - {fileID: 1893154151}
   - {fileID: 1399649117}
   - {fileID: 5815911584366827056}

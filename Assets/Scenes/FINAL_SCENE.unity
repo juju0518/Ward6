@@ -381,11 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &10719373
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -722,11 +720,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &42275615
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1086,11 +1082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &47999761
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2250,11 +2244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &97945055
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3260,11 +3252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &143480873
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4040,11 +4030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &179976471
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4571,11 +4559,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &202394577
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5887,11 +5873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &258073631
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7412,11 +7396,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &306194885
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7956,11 +7938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &321486698
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8719,11 +8699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &351715764
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9162,11 +9140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &368378990
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9451,11 +9427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &372158161
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11460,11 +11434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &429188379
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12148,11 +12120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &454738503
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12464,11 +12434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &455408079
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13241,11 +13209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &468689046
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14559,11 +14525,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &523917324
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15128,11 +15092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &539078416
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15556,11 +15518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &543083614
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15838,11 +15798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &546239003
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -16137,11 +16095,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &551589775
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -17356,11 +17312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &602672926
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18231,11 +18185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &639866619
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18567,11 +18519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &647877740
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18876,11 +18826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &649522333
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -19165,11 +19113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &649890172
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -20291,11 +20237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &684598302
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21293,11 +21237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &723255682
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21624,11 +21566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &731385263
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22017,11 +21957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &743603694
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22333,11 +22271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &745265018
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -22989,11 +22925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &770284035
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -23303,11 +23237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &776897509
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -23907,11 +23839,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &797220036
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24992,11 +24922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &839547011
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -25177,9 +25105,7 @@ Transform:
   m_LocalPosition: {x: 21, y: -0.7699999, z: -24.259}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1643888769}
-  - {fileID: 1640481597}
+  m_Children: []
   m_Father: {fileID: 5502235354232480046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &850940216
@@ -25194,8 +25120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade2e49eb028945c9ba9a6b3120eed07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anomaly
-  normalAppearance: {fileID: 1643888768}
-  anomalyAppearance: {fileID: 1640481596}
+  normalAppearance: {fileID: 2140485441}
+  anomalyAppearance: {fileID: 698203936419414964}
   obviousness: 0
 --- !u!1 &856369535
 GameObject:
@@ -25993,11 +25919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &889255778
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -26690,11 +26614,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &915388347
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -27647,11 +27569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &937308199
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -28133,11 +28053,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &962939154
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -29291,11 +29209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &982332686
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -29612,11 +29528,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1001940605
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -32042,11 +31956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1126774869
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -32378,11 +32290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1132142381
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -32692,11 +32602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1134507084
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -33058,11 +32966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1139625112
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -33367,11 +33273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1142472780
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34298,11 +34202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1192781627
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34612,6 +34514,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 756230780}
+  - {fileID: 2140485442}
   - {fileID: 5109395153796488480}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35625,11 +35528,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1220752536
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -35941,11 +35842,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1224775112
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -36500,11 +36399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1243512826
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -36987,11 +36884,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1254798768
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -37938,11 +37833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1293967098
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -38383,11 +38276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1299790914
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -38781,11 +38672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1314758798
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -39402,11 +39291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1330661538
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -40065,11 +39952,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1362883753
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -41508,11 +41393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1421663154
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -41634,8 +41517,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3667724502609618186, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
       propertyPath: moveSpeed
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3667724502609618186, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
+      propertyPath: footstepsSound
+      value: 
+      objectReference: {fileID: 2140485443}
     - target: {fileID: 6366835172488119919, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -41748,7 +41635,8 @@ PrefabInstance:
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7922731828707962573, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -42620,11 +42508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1455625596
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -43133,11 +43019,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1468397283
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -43943,11 +43827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1496105865
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -45472,11 +45354,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1583921135
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -45912,11 +45792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1587431695
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -46873,11 +46751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1636555875
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47204,11 +47080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1638024534
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47263,37 +47137,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9c17ab43b5a24474a36d6979f1e6e4d, type: 3}
   m_PrefabInstance: {fileID: 2035129895309278018}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1640481596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1640481597}
-  m_Layer: 0
-  m_Name: NoFootSteps
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1640481597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640481596}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 850940215}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1640741653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07847b601182740d79c2c392e6b00baa, type: 3}
@@ -47304,135 +47147,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9c17ab43b5a24474a36d6979f1e6e4d, type: 3}
   m_PrefabInstance: {fileID: 8460844318550546976}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1643888768
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1643888769}
-  - component: {fileID: 1643888770}
-  m_Layer: 0
-  m_Name: FootSteps
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1643888769
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643888768}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 850940215}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1643888770
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643888768}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c08a3c5b69a034e579dd2743fb11aea1, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1645030803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48290,11 +48004,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1671661962
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -48720,11 +48432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1672992807
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -49067,11 +48777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1680310538
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -49398,11 +49106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1691464756
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -49833,11 +49539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1702198458
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -51879,11 +51583,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1775029453
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -52438,11 +52140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1809823559
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -53089,11 +52789,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1834420726
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -54026,11 +53724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1851737206
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -54770,11 +54466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1860013774
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -57055,11 +56749,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1967351251
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -57431,11 +57123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &1973218927
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -57890,11 +57580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &2009657701
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -58376,11 +58064,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &2028625007
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -58939,11 +58625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d982aa6f0594e4600a644c454bbee1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  walkingPath: []
-  initialPosition: {fileID: 0}
-  stopMoving: 1
-  Speed: 3.5
-  arriveDistance: 1
+  speed: 1
+  turnSpeed: 120
+  changeDirectionInterval: 1
 --- !u!195 &2048451481
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -60443,6 +60127,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9c17ab43b5a24474a36d6979f1e6e4d, type: 3}
   m_PrefabInstance: {fileID: 7692748626398590891}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2140485441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2140485442}
+  - component: {fileID: 2140485443}
+  m_Layer: 0
+  m_Name: FootSteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2140485442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140485441}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21, y: -0.7699999, z: -24.259}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1197324622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2140485443
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140485441}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: c08a3c5b69a034e579dd2743fb11aea1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2145588803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89529,7 +89342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f9474dddf44a4210b50994bea43be8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyManager
-  anomalyChance: 0.6
+  anomalyChance: 0.9
   obviousnessChance: 0.5
 --- !u!1001 &9003293881251106350
 PrefabInstance:
