@@ -16,6 +16,9 @@ public class AIController : MonoBehaviour
     private Animator animator;
     private Vector3 startingPosition;
 
+    private float waitTimer = 0f;
+    private float waitTime = 0f;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -47,11 +50,39 @@ public class AIController : MonoBehaviour
     private void MoveConstantly()
     {
         if (walkingPath.Length == 0) return;
+
+        if (waitTimer > 0)
+        {
+            waitTimer -= Time.deltaTime;
+            return;
+        }
+
         if (!agent.pathPending && agent.remainingDistance < arriveDistance)
         {
-            currentIndex = (currentIndex + 1) % walkingPath.Length; 
-            agent.SetDestination(walkingPath[currentIndex].position);
+            //currentIndex = (currentIndex + 1) % walkingPath.Length; 
+            //agent.SetDestination(walkingPath[currentIndex].position);
+            PickNewRandomPoint();
         }   
+    }
+
+    private void PickNewRandomPoint()
+    {
+        if (walkingPath.Length == 0) return;
+
+        int newIndex;
+
+        do
+        {
+            newIndex = Random.Range(0, walkingPath.Length);
+        }
+        while (newIndex == currentIndex && walkingPath.Length > 1);
+
+        currentIndex = newIndex;
+
+        agent.SetDestination(walkingPath[currentIndex].position);
+
+        waitTime = Random.Range(0.1f, 1.0f);
+        waitTimer = waitTime;
     }
 
     private void StopMoving()
