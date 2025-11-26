@@ -480,6 +480,10 @@ PrefabInstance:
       propertyPath: 'walkingPath.Array.data[3]'
       value: 
       objectReference: {fileID: 1416265186}
+    - target: {fileID: 7492437387791826139, guid: 33aa3e7dcf66f416dab97602b2c8642f, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7494783425525402697, guid: 33aa3e7dcf66f416dab97602b2c8642f, type: 3}
       propertyPath: normalAppearance
       value: 
@@ -495,6 +499,10 @@ PrefabInstance:
     - target: {fileID: 8184543577685741106, guid: 33aa3e7dcf66f416dab97602b2c8642f, type: 3}
       propertyPath: m_Name
       value: Anomalies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576500222665832119, guid: 33aa3e7dcf66f416dab97602b2c8642f, type: 3}
+      propertyPath: Loop
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8780009839210295032, guid: 33aa3e7dcf66f416dab97602b2c8642f, type: 3}
       propertyPath: normalAppearance
