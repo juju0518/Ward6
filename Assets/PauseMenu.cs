@@ -36,14 +36,16 @@ public class PauseMenu : MonoBehaviour
 
     public void Play()
     {
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("FINAL_SCENE");
+        AudioListener.pause = false;
     }
 
     public void Pause()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
+        AudioListener.pause = true;
         isPaused = true;   
     }
 
@@ -52,12 +54,14 @@ public class PauseMenu : MonoBehaviour
         
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
+        AudioListener.pause = false;
         isPaused = false;  
     }
 
     public void Exit()
     {
-        //Time.timeScale = 1f;
-        SceneManager.LoadScene("StartingScene");  
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("StartingScene");
+        AudioListener.pause = false;  
     }
 }
