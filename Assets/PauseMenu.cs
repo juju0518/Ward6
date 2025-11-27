@@ -1,0 +1,61 @@
+using JetBrains.Annotations;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PauseMenu : MonoBehaviour
+{
+    [SerializeField] GameObject pauseMenu;
+
+    private bool isPaused;
+
+
+    void Update()
+    {
+        if (SceneManager.GetActiveScene().name == "Start")
+        {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                Play();
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (isPaused)
+                Resume();
+            else
+                Pause();
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (isPaused)
+            {
+                Exit();
+            }
+        }
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("FINAL_SCENE");
+    }
+
+    public void Pause()
+    {
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;   
+    }
+
+    public void Resume()
+    {
+        
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;  
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene("Start");  
+    }
+}
