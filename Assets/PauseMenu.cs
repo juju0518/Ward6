@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "Start")
+        if (SceneManager.GetActiveScene().name == "StartingScene")
         {
             if (Input.GetKeyDown(KeyCode.Return))
             {
@@ -36,7 +36,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Play()
     {
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         SceneManager.LoadScene("FINAL_SCENE");
     }
 
@@ -57,6 +57,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Exit()
     {
+        //Time.timeScale = 1f;
         SceneManager.LoadScene("StartingScene");  
     }
 }
