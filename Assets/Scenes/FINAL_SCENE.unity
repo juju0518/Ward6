@@ -69124,6 +69124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IV_Bag_holder (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b961d2a5397d480f8a716e549f27adf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83421,6 +83425,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
       propertyPath: m_Name
       value: IV_Bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91ff7f7df465a4d92977af1568676c8f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
