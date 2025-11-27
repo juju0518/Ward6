@@ -14,8 +14,6 @@ public class AnomalyManager : MonoBehaviour
     {
         allAnomalies = FindObjectsOfType<Anomaly>().ToList();
         RefillAvailableAnomalies();
-
-        Debug.Log("All anomalies found: " + allAnomalies.Count);
     }
 
     public void DeactivateAllAnomalies()
@@ -62,8 +60,7 @@ public class AnomalyManager : MonoBehaviour
             
             availableAnomalies.Remove(currentAnomaly);
             currentAnomaly.SetActiveAnomaly(true);
-            
-            Debug.Log($"spawned anomaly: {currentAnomaly.name} ({currentAnomaly.obviousness}) - {availableAnomalies.Count} not yet seen");
+
             return true;
         }
 

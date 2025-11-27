@@ -8368,7 +8368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5b17c623a48a4a16baf301a5a71c888, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13617,7 +13617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &482670517
 Transform:
   m_ObjectHideFlags: 0
@@ -13640,7 +13640,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482670516}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -13648,7 +13648,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -13782,7 +13782,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -17531,7 +17531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &606711395
 Transform:
   m_ObjectHideFlags: 0
@@ -31853,6 +31853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1118675328}
+  - component: {fileID: 1118675329}
   m_Layer: 0
   m_Name: SlenderMan
   m_TagString: Untagged
@@ -31877,6 +31878,21 @@ Transform:
   - {fileID: 2030407106}
   m_Father: {fileID: 5502235354232480046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1118675329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118675327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade2e49eb028945c9ba9a6b3120eed07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Anomaly
+  normalAppearance: {fileID: 756230779}
+  anomalyAppearance: {fileID: 2030407103}
+  obviousness: 1
 --- !u!1001 &1122368141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42085,7 +42101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3667724502609618186, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
       propertyPath: moveSpeed
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3667724502609618186, guid: c965b176f7c6a4209a9a37e26f45b21b, type: 3}
       propertyPath: footstepsSound
@@ -56192,7 +56208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d53222facc067431597aafa49dc394d4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d53222facc067431597aafa49dc394d4, type: 3}
       propertyPath: m_TagString
@@ -56211,9 +56227,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d53222facc067431597aafa49dc394d4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2030407107}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d53222facc067431597aafa49dc394d4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2030407108}
   m_SourcePrefab: {fileID: 100100000, guid: d53222facc067431597aafa49dc394d4, type: 3}
 --- !u!1001 &1938990647
 PrefabInstance:
@@ -58697,21 +58710,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2030407108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030407103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ade2e49eb028945c9ba9a6b3120eed07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Anomaly
-  normalAppearance: {fileID: 756230779}
-  anomalyAppearance: {fileID: 2030407103}
-  obviousness: 1
 --- !u!4 &2034249889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07847b601182740d79c2c392e6b00baa, type: 3}
@@ -90032,7 +90030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f9474dddf44a4210b50994bea43be8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyManager
-  anomalyChance: 0.9
+  anomalyChance: 0.6
   obviousnessChance: 0.5
 --- !u!1001 &9003293881251106350
 PrefabInstance:
