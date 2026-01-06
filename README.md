@@ -24,3 +24,7 @@ I uniquely worked on the core game systems and coding architecture, including th
 3. Press **Play** in the Unity Editor to begin your recovery  
 4. **Walk forward** if the scene appears normal, **walk backward** if you spot an anomaly
 5. Make correct choices to advance the clock — wrong choices reset you to midnight!
+
+**OR**
+
+Feel free to reach out via email (jross2@bowdoin.edu) for the game build!
